@@ -26,7 +26,6 @@
 
 #include "file_helpers.h"
 
-
 namespace logging = boost::log;
 namespace src = boost::log::sources;
 namespace sinks = boost::log::sinks;
