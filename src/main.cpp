@@ -55,7 +55,6 @@ int main(){
     src::severity_logger < severity_level > lg;
     BOOST_LOG_SEV(lg, info) << "Start Connector at path: " << FileHelpers::ExePath();
 
-
     BOOST_LOG_SEV(lg, trace) << "A trace severity message";
     BOOST_LOG_SEV(lg, debug) << "A debug severity message";
     BOOST_LOG_SEV(lg, warning) << "A warning severity message";
